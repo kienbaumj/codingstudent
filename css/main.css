@@ -1,3 +1,42 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  margin: 15px;
+}
+
+/* for some reason the georgia font did not work - case sensitive */
+
+h1 {
+  color: darkblue;
+  font-family: helvetica;
+  border-width: 5px;
+  border-color: #E05D31;
+  border-style: dashed;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: firebrick;
+  padding: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* The font-size is not working. Is it because I have an id on the div? */
+
+#intro {
+  font-size: 24px;
+}
+
 #box0 {
   width: 50px;
   border-left: 0;

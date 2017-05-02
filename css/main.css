@@ -1,27 +1,48 @@
 * {
-  font-family: 'Oswald', sans-serif;
-  margin: 15px;
+  font-family: 'Oswald', sans-serif, arial;
+  box-sizing: border-box;
 }
 
 /* for some reason the georgia font did not work - case sensitive */
 
-h1 {
-  color: darkblue;
-  font-family: helvetica;
-  border-width: 5px;
-  border-color: #E05D31;
-  border-style: dashed;
-  padding: 20px;
-  text-align: center;
+li {
+  display: inline;
 }
 
-h2 {
-  color: #ffffff;
-  background-color: firebrick;
-  padding: 20px;
-  font-style: italic;
-  text-align: center;
+
+.sitename {
+  color: #70B653;
+  font-size: 24px;
 }
+
+.topnav {
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  float: right;
+}
+
+.main {
+  margin-top: 75px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+  background-color: #23305C;
+  color: #70B653;
+  height: 300px;
+  padding-top: 20px;
+  line-height: .5em;
+}
+
+.subheading {
+  font-size: 32px;
+  color: #fff;
+}
+
 
 h3 {
   padding-top: 20px;
@@ -33,8 +54,51 @@ img {
 
 /* The font-size is not working. Is it because I have an id on the div? */
 
-#intro {
+.intro {
   font-size: 24px;
+  width: 800px;
+  height: 300px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#introimage {
+  float: right;
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+#missionimage {
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  margin-top:50px;
+}
+
+.mission {
+  float: right;
+  width: 900px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.why {
+  margin-top: 350px;
+  padding: 10px;
+  position: relative;
+  background-color: #f2f2f2;
+  font-size: 24px;
+}
+
+.aboutme {
+  width: 500px;
+  height: 500px;
+  margin-top: 300px;
 }
 
 #box0 {

@@ -1,0 +1,110 @@
+* {
+  font-family: 'Oswald', sans-serif, arial;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #77C9D4;
+}
+
+.topnav {
+  font-size: 28px;
+  height: 60px;
+  padding-bottom: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #77C9D4;
+}
+
+#navright {
+  float: right;
+  word-spacing: 20px;
+}
+
+#navleft {
+  float: left;
+  padding: 0px;
+}
+
+.sitename {
+  color: #57BC90;
+  font-size: 32px;
+}
+
+#heading {
+  font-size: 42px;
+  text-align: center;
+  color: #015249;
+  font-family: impact, Charcoal, sans-serif;
+}
+
+#subheading {
+  font-size: 20px;
+  text-align: center;
+  color: #464646;
+}
+
+.headingscontain {
+  line-height: 25px;
+
+}
+
+.skills {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #A5A5B1;
+}
+
+#currentskills {
+  font-size: 24px;
+  float: left;
+  text-transform: uppercase;
+}
+
+#cs2 {
+  font-size: 36px;
+  color: #57BC90;
+  text-decoration: underline;
+}
+
+#developingskills {
+  font-size: 24px;
+  float: right;
+  text-transform: uppercase;
+}
+
+#ds2 {
+  font-size: 36px;
+  color: #57BC90;
+  text-decoration: underline;
+}
+
+#projects {
+  font-size: 36px;
+  margin-top:370px;
+  text-align: center;
+  color: #57BC90;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#comingsoon {
+  font-size: 36px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.footer {
+  background-color: #015249;
+  color: #fff;
+  font-size:24px;
+  height: 80px;
+  position: relative;
+  margin-top: 150px;
+  padding-left: 30px;
+  padding-top: 5px;

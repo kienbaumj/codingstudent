@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-li {
-  display: inline;
-}
-
 a {
   text-decoration: none;
   color: #77C9D4;
@@ -21,12 +17,16 @@ a {
   color: #77C9D4;
 }
 
-#navright {
+div.topnav li {
+  display: inline;
+}
+
+#navlinks {
   float: right;
   word-spacing: 20px;
 }
 
-#navleft {
+#navtitle {
   float: left;
   padding: 0px;
 }
